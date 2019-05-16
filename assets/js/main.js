@@ -32,7 +32,7 @@ var $ = jQuery.noConflict();
     $("#count-down")
         .countdown("2019/06/30", function(event) {
             $(this).text(
-                event.strftime('%D天 %H小时%M分钟%S秒')
+                event.strftime('%D day %H hour %M min %S second')
             );
         });
 
